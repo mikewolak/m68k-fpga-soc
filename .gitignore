@@ -1,0 +1,34 @@
+# Build outputs
+build/*.json
+build/*.asc
+build/*.bin
+build/*.log
+build/*.rpt
+build/*.svf
+
+# Simulation outputs
+sim/*.vcd
+sim/*.log
+sim/*.vvp
+sim/work/
+sim/transcript
+sim/*.wlf
+
+# Firmware outputs
+firmware/*.o
+firmware/*.elf
+firmware/*.bin
+firmware/*.hex
+firmware/*.lst
+firmware/*.map
+
+# IDE / Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
