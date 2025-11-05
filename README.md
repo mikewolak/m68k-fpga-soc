@@ -731,7 +731,6 @@ See `hdl/j68_cpu/` directory for complete license information.
 - **Motorola/Freescale/NXP** - Original MC68000 architecture and documentation
 - **Lattice Semiconductor** - iCE40 FPGA family and development tools
 - **Yosys/nextpnr teams** - Open-source FPGA synthesis and PnR tools
-- **Claire Xenia Wolf** - PicoRV32 project inspiration for build/test infrastructure
 
 ### References
 
