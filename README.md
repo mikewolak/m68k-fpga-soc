@@ -559,10 +559,13 @@ m68k-fpga-soc/
 │       ├── j68_*.v        # CPU submodules
 │       └── *.mem, *.mif   # Microcode ROM initialization
 │
-├── firmware/              # M68000 Assembly Firmware
-│   ├── test_sim.S         # LED toggle test firmware
-│   ├── m68k.ld            # Linker script
-│   └── Makefile           # Firmware build system
+├── firmware/              # M68000 Firmware
+│   ├── test_sim.S         # Original assembly test
+│   ├── m68k.ld            # Original linker script
+│   ├── Makefile           # Original build system
+│   └── examples/          # Firmware examples
+│       ├── 01_asm_simple/ # Assembly LED blink
+│       └── 02_c_blink/    # C LED blink with crt0
 │
 ├── sim/                   # Simulation Environment
 │   ├── m68k_test_sim_tb.v # ModelSim testbench
